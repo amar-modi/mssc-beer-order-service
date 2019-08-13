@@ -4,10 +4,12 @@
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/domain/OrderStatusEnum.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/domain/Customer.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/mappers/BeerOrderMapper.java
+/Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/model/BeerDto.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/model/BeerOrderDto.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/domain/BaseEntity.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/controllers/BeerOrderController.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/mappers/DateMapper.java
+/Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/services/BeerOrderRestTemplateServiceImpl.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/config/TaskConfig.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/model/BeerOrderLineDto.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/repositories/BeerOrderRepository.java
@@ -18,8 +20,11 @@
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/repositories/BeerOrderLineRepository.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/domain/BeerOrder.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/model/CustomerDto.java
+/Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/model/BeerStyleEnum.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/model/BaseItem.java
+/Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/services/BeerOrderRestTemplateService.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/BeerOrderServiceApplication.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/services/BeerOrderService.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/services/BeerOrderServiceImpl.java
 /Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/mappers/BeerOrderLineMapper.java
+/Users/amod/LC-Brewert/mssc-jackson-examples/amar-git/mssc-beer-order-service/src/main/java/guru/sfg/beer/order/service/web/mappers/BeerOrderLineMapperDecorator.java

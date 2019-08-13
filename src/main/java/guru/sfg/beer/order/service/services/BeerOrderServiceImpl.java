@@ -23,6 +23,7 @@ import guru.sfg.beer.order.service.domain.OrderStatusEnum;
 import guru.sfg.beer.order.service.repositories.BeerOrderRepository;
 import guru.sfg.beer.order.service.repositories.CustomerRepository;
 import guru.sfg.beer.order.service.web.mappers.BeerOrderMapper;
+import guru.sfg.beer.order.service.web.model.BeerDto;
 import guru.sfg.beer.order.service.web.model.BeerOrderDto;
 import guru.sfg.beer.order.service.web.model.BeerOrderPagedList;
 import lombok.extern.slf4j.Slf4j;
@@ -113,6 +114,7 @@ public class BeerOrderServiceImpl implements BeerOrderService {
 
         beerOrderRepository.save(beerOrder);
     }
+
 
     private BeerOrder getOrder(UUID customerId, UUID orderId){
         Optional<Customer> customerOptional = customerRepository.findById(customerId);

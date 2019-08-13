@@ -18,6 +18,7 @@
 package guru.sfg.beer.order.service.services;
 
 
+import guru.sfg.beer.order.service.web.model.BeerDto;
 import guru.sfg.beer.order.service.web.model.BeerOrderDto;
 import guru.sfg.beer.order.service.web.model.BeerOrderPagedList;
 import org.springframework.data.domain.Pageable;
@@ -32,4 +33,5 @@ public interface BeerOrderService {
     BeerOrderDto getOrderById(UUID customerId, UUID orderId);
 
     void pickupOrder(UUID customerId, UUID orderId);
+
 }
